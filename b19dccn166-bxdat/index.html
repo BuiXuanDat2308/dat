@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./font/fontawesome-5.15.1/css/all.min.css" />
+    <title>Quản lý Nhân viên</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <div class="menu-top">
+          <img
+            class="menu-top__icon"
+            src="./img/toggle.png"
+            alt="this-is-icon"
+          />
+          <img
+            class="menu-top__logo"
+            src="./img/cukcuk-logo.png"
+            alt="this-is-logo"
+          />
+        </div>
+
+        <ul class="menu-list">
+          <li class="menu-list__item">
+            <a href="#!">
+              <img src="./icon/dashboard.png" alt="this-is-icon" />
+              Tổng quan
+            </a>
+          </li>
+          <li class="menu-list__item">
+            <a href="#!">
+              <img src="./icon/report.png" alt="this-is-icon" />
+              Báo cáo
+            </a>
+          </li>
+          <li class="menu-list__item">
+            <a href="#!">
+              <img src="./icon/dashboard.png" alt="this-is-icon" />
+
+              Mua hàng
+            </a>
+          </li>
+          <li class="menu-list__item">
+            <a href="#!">
+              <img src="./icon/document-online.png" alt="this-is-icon" />
+              Hồ sơ giấy
+            </a>
+          </li>
+          <li class="menu-list__item">
+            <a href="#!">
+              <img src="./icon/dic-employee.png" alt="this-is-icon" />
+              Danh mục Nhân viên
+            </a>
+          </li>
+          <li class="menu-list__item">
+            <a href="#!">
+              <img src="./icon/setting.png" alt="this-is-icon" />
+              Thiết lập hệ thống
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content">
+        <div class="content-top">
+          <div class="content-top__dropdown">
+            <span>Nhà hàng biển đông</span>
+            <i class="fas fa-angle-down"></i>
+          </div>
+
+          <div class="content-top__user">
+            <img src="./icon/avatar-default.png" alt="this-is-avatar" />
+            <span>Bùi Xuân Đạt</span>
+            <img src="./icon/option.png" alt="this-is-icon" />
+          </div>
+        </div>
+
+        <div class="content-member">
+          <h1>Danh sách Nhân viên</h1>
+
+          <a href="#!" class="content-member__add">
+            <i class="fas fa-user-plus"></i>
+            Thêm Nhân viên
+          </a>
+        </div>
+
+        <div class="content-wrapper">
+          <div class="content-group">
+            <div class="content-group__search">
+              <i class="fas fa-search"></i>
+              <input
+                type="text"
+                placeholder="Tìm kiếm theo Mã, Tên hoặc Số điện thoại"
+              />
+            </div>
+            <select class="content-group__dropdown">
+              <option value="volvo" selected>Tất cả phòng ban</option>
+              <option value="saab">Demo 1</option>
+              <option value="vw">Demo 2</option>
+              <option value="audi">Demo 3</option>
+              <option value="audi">Demo 4</option>
+            </select>
+            <select class="content-group__dropdown">
+              <option value="volvo" selected>Tất cả vị trí</option>
+              <option value="saab">Demo 1</option>
+              <option value="vw">Demo 2</option>
+              <option value="audi">Demo 3</option>
+              <option value="audi">Demo 4</option>
+            </select>
+          </div>
+          <img src="./icon/refresh.png" alt="this-is-icon" />
+        </div>
+
+        <div class="list-member">
+          <div class="table-head">
+            <table>
+              <tr>
+                <th>Mã Nhân viên</th>
+                <th>Họ và tên</th>
+                <th>Giới tính</th>
+                <th>Ngày sinh</th>
+                <th>Điện thoại</th>
+                <th>Email</th>
+                <th>Chức vụ</th>
+                <th>Phòng ban</th>
+                <th>Mức lương cơ bản</th>
+                <th>Tình trạng công việc</th>
+              </tr>
+            </table>
+          </div>
+          <div class="table-wrapper">
+            <div class="table-body">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                  <tr>
+                    <td>NV0009999</td>
+                    <td>Nguyễn Thành An</td>
+                    <td>Nam</td>
+                    <td>24/01/1994</td>
+                    <td>0944049616</td>
+                    <td>thanhnamvip1994@gmail.com</td>
+                    <td>Thu ngân</td>
+                    <td>Phòng nhân sự</td>
+                    <td>15.509.169</td>
+                    <td>Đang thử việc</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+          <span class="footer-text">Hiển thị 1-10/1000 Nhân viên</span>
+          <div class="footer-pagination">
+            <button class="footer-pagination__btn">
+              <img src="./icon/btn-firstpage.svg" alt="" />
+            </button>
+            <button class="footer-pagination__btn">
+              <img src="./icon/btn-prev-page.svg" alt="" />
+            </button>
+
+            <div class="footer__pagination-list">
+              <a class="active" href="#!">1</a><a href="#!">2</a
+              ><a href="#!">3</a><a href="#!">4</a>
+            </div>
+
+            <button class="footer-pagination__btn">
+              <img src="./icon/btn-next-page.svg" alt="" />
+            </button>
+            <button class="footer-pagination__btn">
+              <img src="./icon/btn-lastpage.svg" alt="" />
+            </button>
+          </div>
+
+          <span class="footer-text">10 Nhân viên/trang</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
